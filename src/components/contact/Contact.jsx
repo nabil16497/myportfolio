@@ -31,7 +31,7 @@ const Contact = () => {
         <article className="contact__option">
         <RiMailLine className='contact__option-icon'/>
         <h4>Email</h4>
-        <h5>nabil16497@gmail.com</h5>
+        <h5 className='contact__option-details'>nabil16497@gmail.com</h5>
         <a href="mailto:nabil16497@gmail.com" className="" target='_blank'>Send a message</a>  
         </article>
 
@@ -39,7 +39,7 @@ const Contact = () => {
         <article className="contact__option">
         <RiMessengerLine className='contact__option-icon'/>
         <h4>Messenger</h4>
-        <h5>nabil164</h5>
+        <h5 className='contact__option-details'>nabil164</h5>
         <a href="https://m.me/nabil164" className="" target='_blank'>Send a message</a>  
         </article>
 
@@ -47,7 +47,7 @@ const Contact = () => {
         <article className="contact__option">
         <RiWhatsappLine className='contact__option-icon'/>
         <h4>WhatsApp</h4>
-        <h5>+8801629528448</h5>
+        <h5 className='contact__option-details'>+8801629528448</h5>
         <a href="https://api.whatsapp.com/send?phone=+8801629528448" className="" target='_blank'>Send a message</a>  
         </article>
         </div>
