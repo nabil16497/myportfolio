@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.429a05c4.css",
+    "main.js": "/myportfolio/static/js/main.0291d325.js",
+    "static/media/dp.png": "/myportfolio/static/media/dp.99edcd52fcd557e9b764.png",
+    "static/media/CV.pdf": "/myportfolio/static/media/CV.1b366a66fa516a514ad2.pdf",
+    "index.html": "/myportfolio/index.html",
+    "main.429a05c4.css.map": "/myportfolio/static/css/main.429a05c4.css.map",
+    "main.0291d325.js.map": "/myportfolio/static/js/main.0291d325.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.429a05c4.css",
+    "static/js/main.0291d325.js"
+  ]
+}
