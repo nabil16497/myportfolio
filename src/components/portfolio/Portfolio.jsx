@@ -60,6 +60,8 @@ const Portfolio = () => {
       <h5>My Works</h5>
       <h2>Portfolio</h2>
       
+      <div className="container__glass">
+
       <div className="container portfolio__container">
 
       {
@@ -81,6 +83,7 @@ const Portfolio = () => {
         })
       }
 
+      </div>
       </div>
     </section>
   )

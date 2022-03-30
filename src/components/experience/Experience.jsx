@@ -6,6 +6,7 @@ const Experience = () => {
     <section id='experience'>
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
+      <div className="container__glass">
       <div className="container experience__container">
         <div className="experience__frontend">
         <h3>Frontend Devolopment</h3>
@@ -125,6 +126,7 @@ const Experience = () => {
         </div>
 
         </div>
+      </div>
       </div>
     </section>
   )

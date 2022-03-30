@@ -11,11 +11,11 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
+    --color-bg: #112838;
+    --color-bg-variant: #225071;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77,181,255, 0.4);
-    --color-white: #ffff;
+    --color-white: #fefefe;
     --color-light: rgba(255,255,255,0.6);
 
     --transition: all 400ms ease;
@@ -39,13 +39,31 @@ body{
     background: var(--color-bg-variant);
     color: var(--color-white);
     line-height: 1.7;
+    background: url(../src/assets/bgimg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
 }
 
 /**/
 .container{
     width:var(--container-width-lg);
     margin: 0 auto;
+    
+    
 }
+.container__glass{
+    width:90%;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+    position: relative;
+    border-radius: .7rem;
+    background-color: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(1rem);
+}
+
+ 
 
 h1,h2,h3,h4,h5{
     font-weight: 500;

@@ -46,7 +46,7 @@ const Testimonials = () => {
       <h5>Review From Clients</h5>
       <h2>Testimonials</h2>
 
-
+      <div className="container__glass">
       <Swiper className="container testimonial__container" 
        modules={[Pagination]}
        spaceBetween={40}
@@ -71,6 +71,7 @@ const Testimonials = () => {
         }
 
       </Swiper>
+      </div>
     </section>
   )
 }

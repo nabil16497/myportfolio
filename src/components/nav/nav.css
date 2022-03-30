@@ -28,4 +28,7 @@ nav a:hover {
 nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
+    transform: translateY(-1.5rem) scale(130%);
+    box-shadow: 0 0.15rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
 }
+

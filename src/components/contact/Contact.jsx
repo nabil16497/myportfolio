@@ -24,7 +24,7 @@ const Contact = () => {
     <section id='contact'>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
-
+      <div className="container__glass">
       <div className="container contact__container">
 
         <div className="contact__options">
@@ -60,6 +60,7 @@ const Contact = () => {
         </form>
 
 
+      </div>
       </div>
     </section>
   )

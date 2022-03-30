@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/dp.png'
+import ME from '../../assets/about.jpg'
 import {BiAward} from 'react-icons/bi'
 import {FiUsers} from 'react-icons/fi'
 import {AiOutlineFolderAdd} from 'react-icons/ai'
@@ -10,6 +10,7 @@ const About = () => {
     <section id='about'>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
+      <div className="container__glass">
       <div className='container about__container'>
         <div className='about__me'>
           <div className="about__me-image">
@@ -43,11 +44,12 @@ const About = () => {
           </div>
 
           <p>
-            This is about me paragraph. I'll get on to it later aftewr finishing the whole page.
+          A very optimistic and hardworking individual. I am also an enthusiastic learner. I am a quick learner and exceptionally great when it comes to analytical and logical problems which gives me leverage on learning new things.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
+      </div>
       </div>
     </section>
   )

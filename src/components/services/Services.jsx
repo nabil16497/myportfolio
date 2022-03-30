@@ -9,6 +9,8 @@ const Services = () => {
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
+      <div className="container__glass">
+
       <div className="container services__container">
         <article className='service'>
           <div className="service__head">
@@ -36,6 +38,7 @@ const Services = () => {
               <p>I'll think about it later.</p>
             </li>
           </ul>
+
         </article>
 
 
@@ -103,7 +106,7 @@ const Services = () => {
         </article>
 
       </div>
-
+      </div>
     </section>
   )
 }
