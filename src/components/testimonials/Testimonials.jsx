@@ -43,7 +43,9 @@ const data =[
 const Testimonials = () => {
   return (
     <section id='testimonial'>
-      <h5>Review From Clients</h5>
+      <h5>Review From Clients
+        or Something Else
+      </h5>
       <h2>Testimonials</h2>
 
       <div className="container__glass">

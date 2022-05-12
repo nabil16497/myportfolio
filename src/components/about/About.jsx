@@ -1,8 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/about.jpg'
-import {BiAward} from 'react-icons/bi'
-import {FiUsers} from 'react-icons/fi'
+import {FaGraduationCap} from 'react-icons/fa'
 import {AiOutlineFolderAdd} from 'react-icons/ai'
 
 const About = () => {
@@ -20,17 +19,9 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
            <article className='about__card'>
-             <BiAward className='about__icon' />
-            <h5>Experience</h5>
-            <small>3+ Years work</small>
-           </article>
-
-
-
-           <article className='about__card'>
-             <FiUsers className='about__icon' />
-            <h5>Clients</h5>
-            <small>200+ Worldwide</small>
+             <FaGraduationCap className='about__icon' />
+            <h5>Education</h5>
+            <small>BSc CSE<br></br>(American International University Bangladesh)</small>
            </article>
 
 
@@ -38,8 +29,8 @@ const About = () => {
 
            <article className='about__card'>
              <AiOutlineFolderAdd className='about__icon' />
-            <h5>Projects</h5>
-            <small>80+ Completed</small>
+            <h5>Currently In Practice</h5>
+            <small>Game Design & Development (Unreal Engine)</small>
            </article>
           </div>
 

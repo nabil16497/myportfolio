@@ -6,7 +6,7 @@ import {FiYoutube} from 'react-icons/fi'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id='footer'>
       <a href='#' className='footer__logo'>NABIL</a>
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -21,8 +21,8 @@ const Footer = () => {
 
      <div className="footer__social">
 
-        <a href="https://facebook.com" target='_blank'><FaFacebookF/></a>
-        <a href="https://linkedin.com" target='_blank'><FaLinkedinIn/></a>
+        <a href="https://facebook.com/nabil164/" target='_blank'><FaFacebookF/></a>
+        <a href="https://www.linkedin.com/in/nabil16497/" target='_blank'><FaLinkedinIn/></a>
         <a href="https://youtube.com" target='_blank'><FiYoutube/></a>
        </div>
        <div className="footer__copyright">

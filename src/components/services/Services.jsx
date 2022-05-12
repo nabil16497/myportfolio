@@ -14,7 +14,7 @@ const Services = () => {
       <div className="container services__container">
         <article className='service'>
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>still thinking</h3>
           </div>
           <ul className= 'service__list'>
             <li>
@@ -47,9 +47,25 @@ const Services = () => {
 
         <article className='service'>
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Still Thinking</h3>
           </div>
           <ul className= 'service__list'>
+            <li>
+              <BsCheck className='service__list-icon' />
+              <p>I'll think about it later.</p>
+            </li>
+            <li>
+              <BsCheck className='service__list-icon' />
+              <p>I'll think about it later.</p>
+            </li>
+            <li>
+              <BsCheck className='service__list-icon' />
+              <p>I'll think about it later.</p>
+            </li>
+            <li>
+              <BsCheck className='service__list-icon' />
+              <p>I'll think about it later.</p>
+            </li>
             <li>
               <BsCheck className='service__list-icon' />
               <p>I'll think about it later.</p>
@@ -79,9 +95,17 @@ const Services = () => {
 
         <article className='service'>
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>STILL THINKING</h3>
           </div>
           <ul className= 'service__list'>
+            <li>
+              <BsCheck className='service__list-icon' />
+              <p>I'll think about it later.</p>
+            </li>
+            <li>
+              <BsCheck className='service__list-icon' />
+              <p>I'll think about it later.</p>
+            </li>
             <li>
               <BsCheck className='service__list-icon' />
               <p>I'll think about it later.</p>
