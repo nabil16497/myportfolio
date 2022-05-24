@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.5001ac2c.css",
-    "main.js": "/myportfolio/static/js/main.5aed6bb6.js",
-    "static/media/dp.png": "/myportfolio/static/media/dp.99edcd52fcd557e9b764.png",
+    "main.css": "/myportfolio/static/css/main.2b90e7c5.css",
+    "main.js": "/myportfolio/static/js/main.476f6359.js",
+    "static/media/dp.png": "/myportfolio/static/media/dp.26930dc08bb398a09af0.png",
+    "static/media/bgimg.jpg": "/myportfolio/static/media/bgimg.0900f14f5ad2c7ee71ab.jpg",
+    "static/media/nobu.png": "/myportfolio/static/media/nobu.2887b403df89659dced8.png",
+    "static/media/city.png": "/myportfolio/static/media/city.4c37a9b1afb672e2db57.png",
+    "static/media/buildings.png": "/myportfolio/static/media/buildings.cec6418b3e6db5ea7462.png",
+    "static/media/crane.png": "/myportfolio/static/media/crane.a425dba4ab2697fa7751.png",
+    "static/media/uproom.png": "/myportfolio/static/media/uproom.7746de07c9cf1a48acba.png",
     "static/media/CV.pdf": "/myportfolio/static/media/CV.1b366a66fa516a514ad2.pdf",
+    "static/media/about.jpg": "/myportfolio/static/media/about.4603566c39fccd2040d0.jpg",
+    "static/media/solarsystem.png": "/myportfolio/static/media/solarsystem.78d88c2b52a947fda9d5.png",
+    "static/media/p.png": "/myportfolio/static/media/p.e2cbc465a74c5a4f3687.png",
     "index.html": "/myportfolio/index.html",
-    "main.5001ac2c.css.map": "/myportfolio/static/css/main.5001ac2c.css.map",
-    "main.5aed6bb6.js.map": "/myportfolio/static/js/main.5aed6bb6.js.map"
+    "main.2b90e7c5.css.map": "/myportfolio/static/css/main.2b90e7c5.css.map",
+    "main.476f6359.js.map": "/myportfolio/static/js/main.476f6359.js.map"
   },
   "entrypoints": [
-    "static/css/main.5001ac2c.css",
-    "static/js/main.5aed6bb6.js"
+    "static/css/main.2b90e7c5.css",
+    "static/js/main.476f6359.js"
   ]
 }
