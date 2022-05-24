@@ -34,15 +34,40 @@
 
 
 
+
+
+@media screen and (max-width: 1200px) {
+
+    .portfolio__item-cta{
+        display: grid;
+    }
+    }
+
 @media screen and (max-width: 1024px) {
-    
+
     .portfolio__container{
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
     }
 
+@media screen and (max-width: 1024px) {
+
+    .portfolio__item-cta{
+        display: flex;
+    }
+    }
+@media screen and (max-width: 720px) {
+
+    .portfolio__item-cta{
+        display: grid;
+    }
+
+    }
 @media screen and (max-width: 600px) {
+    .portfolio__item-cta{
+        display: flex;
+    }
     
     .portfolio__container{
         grid-template-columns: 1fr;
