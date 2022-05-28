@@ -1,10 +1,10 @@
-.experience__container{
+.extra__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
 
-.experience__container > div {
+.extra__container > div {
     background: var(--color-bg-varient);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
@@ -12,31 +12,36 @@
     transition: var(--transition);
 }
 
-.experience__container > div:hover {
+.extra__container > div:hover {
     background: transparent;
     border-color: var(--color-primary-varient);
     cursor: default;
 }
 
-.experience__container > div h3{
+.extra__container > div h3{
     text-align: center;
     margin-bottom: 2rem;
     color:var(--color-primary)
     
 }
 
-.experience__content {
+.extra__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+}
+.extra__content2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
 }
 
-.experience__details {
+.extra__details {
     display: flex;
     gap: 1rem;
 }
 
-.experience__details-icon{
+.extra__details-icon{
     margin-top: 6px;
     color: var(--color-primary);
 }
@@ -44,16 +49,16 @@
 
 
 @media screen and (max-width: 1024px) {
-    .experience__container{
+    .extra__container{
         grid-template-columns: 1fr;
         gap: 0;
     }
-    .experience__container > div{
+    .extra__container > div{
         width: 80%;
         padding: 2rem;
         margin: 0 auto;
     }
-    .experience__content{
+    .extra__content{
         padding: 1rem;
     }
 
@@ -61,11 +66,11 @@
 
 @media screen and (max-width: 600px) {
     
-    .experience__container{
+    .extra__container{
         gap: 1rem;
     }
 
-    .experience__container > div{
+    .extra__container > div{
         width: 100%;
         padding: 2rem 1rem;
     }

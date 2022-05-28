@@ -3,6 +3,8 @@ import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {FaLinkedinIn} from 'react-icons/fa'
 import {FiYoutube} from 'react-icons/fi'
+import {BsBehance} from 'react-icons/bs'
+import {FiGithub} from 'react-icons/fi'
 
 const Footer = () => {
   return (
@@ -11,10 +13,10 @@ const Footer = () => {
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#services">Services</a></li>
+        <li><a href="#services">Skills</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonial">Testimonials</a></li>
+        <li><a href="#otheractivities">Hobbies</a></li>
+        <li><a href="#certification">Achievements</a></li>
         <li><a href="#contact">Contact</a></li>
 
       </ul>
@@ -23,7 +25,9 @@ const Footer = () => {
 
         <a href="https://facebook.com/nabil164/" target='_blank'><FaFacebookF/></a>
         <a href="https://www.linkedin.com/in/nabil16497/" target='_blank'><FaLinkedinIn/></a>
-        <a href="https://youtube.com" target='_blank'><FiYoutube/></a>
+        <a href='https://github.com/nabil16497' target='_blank'><FiGithub /></a>
+        <a href='https://www.behance.net/mmnabil' target='_blank'><BsBehance /></a>
+        <a href="https://www.youtube.com/c/nabilsflute" target='_blank'><FiYoutube/></a>
        </div>
        <div className="footer__copyright">
          <small>&copy; Nabil's Portal.</small>

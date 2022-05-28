@@ -1,18 +1,19 @@
 import React from 'react'
 import './portfolio.css'
-import PIMG1 from '../../assets/p.png'
-import PIMG2 from '../../assets/p.png'
-import PIMG3 from '../../assets/p.png'
-import PIMG4 from '../../assets/p.png'
-import PIMG5 from '../../assets/p.png'
-import PIMG6 from '../../assets/p.png'
-import PIMG7 from '../../assets/p.png'
+import PIMG1 from '../../assets/javaschoolmanagement.png'
+import PIMG2 from '../../assets/c_sharp.png'
+import PIMG3 from '../../assets/os.png'
+import PIMG4 from '../../assets/AI.png'
+import PIMG5 from '../../assets/portal.png'
+import PIMG6 from '../../assets/audiolearning.png'
+import PIMG7 from '../../assets/freerunner.png'
 import PADIMG1 from '../../assets/nobu.png'
 import PADIMG2 from '../../assets/solarsystem.png'
 import PADIMG3 from '../../assets/buildings.png'
 import PADIMG4 from '../../assets/city.png'
 import PADIMG5 from '../../assets/uproom.png'
 import PADIMG6 from '../../assets/crane.png'
+
 
 const dataart = [
   /*{
@@ -88,8 +89,9 @@ const data = [
     image: PIMG7, 
     title: 'Free Runner',
     desc: 'Game | Unreal Engine 4',
-    git: '#',
-    demo: '#'
+    linktype: 'Drive',
+    git: 'https://drive.google.com/file/d/1tJSp7EFNJEQrMmwBs6JKKx0HgJiu9KYH/view?usp=sharing',
+    demo: 'https://drive.google.com/file/d/1TGk-GeDPExScEEJFrm9t7tWQGABhGVvY/view?usp=sharing'
   },
   
   {
@@ -97,6 +99,7 @@ const data = [
     image: PIMG6,
     title: "Audio Processing",
     desc: "Python | Machine Learning | Deep Learning",
+    linktype: 'Github',
     git: "https://github.com/nabil16497/Audio-Noise-Data-Machine-Learning-and-Deep-Lerning",
     demo: "https://youtube.com"
   },
@@ -105,40 +108,45 @@ const data = [
     image: PIMG5,
     title: "University Portal",
     desc: "Web App | HTML, PHP, CSS, JS",
+    linktype: 'Github',
     git: "https://github.com/nabil16497/university_portal",
-    demo: "https://youtube.com"
+    demo: "https://drive.google.com/file/d/1tzCBedsDK9cczLdnuVH1Z4AZS2bhNqih/view?usp=sharing"
   },
   {
     id:4,
     image: PIMG4,
     title: "nQueen Problem, Genetic Algorithm, Map Coloring CSP (Artificial-Intelligence-Course-Algorithms)",
     desc: "Python | Console Application",
+    linktype: 'Github',
     git: "https://github.com/nabil16497/Artificial-Intelligence-Course-Algorithms-nQueen-Problem-Genetic-Algorithm-Map-Coloring-CSP-",
-    demo: "https://youtube.com"
+    demo: "https://drive.google.com/file/d/1aVe-TjP3THBuZbAaNzyWJJgccpEzE18j/view?usp=sharing"
   },
   {
     id:3,
     image: PIMG3,
     title: "CPU Scheduling Algorithms",
     desc: "C++ | Console Application",
+    linktype: 'Github',
     git: "https://github.com/nabil16497/Operating-System-Process-Scheduling-Algorithms",
-    demo: "https://youtube.com"
+    demo: "https://drive.google.com/file/d/1bJlwW7J5eRl2JDU7h8X03laO9aYRAYU4/view?usp=sharing"
   },
   {
     id:2,
     image: PIMG2,
     title: "Windows Voice Assistant",
     desc: "C# | Windows Form Application",
+    linktype: 'Github',
     git: "https://github.com/nabil16497/C-Sharp-Windows-Voice-Assistant-",
-    demo: "https://youtube.com"
+    demo: "https://drive.google.com/file/d/1xcNoRYSYrxPq64GsAvv6gkAXpqdFFJ-E/view?usp=sharing"
   },
   {
     id:1,
     image: PIMG1,
     title: "School Management",
     desc: "Java | Console Application",
+    linktype: 'Github',
     git:  "https://github.com/nabil16497/Java-School-Management-Project-Console-Application-and-File-System-",
-    demo: "https://youtube.com"
+    demo: "https://drive.google.com/file/d/1xcNoRYSYrxPq64GsAvv6gkAXpqdFFJ-E/view?usp=sharing"
   }
 ]
 
@@ -153,7 +161,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
 
       {
-        data.map(({id, image, title, desc, git, demo}) =>{
+        data.map(({id, image, title, desc, linktype, git, demo}) =>{
           return(
             <article key={id} className='portfolio__item'>
           <div className="portfolio__item-image">
@@ -162,7 +170,7 @@ const Portfolio = () => {
           <h3>{title}</h3>
           <small className='text-light'>{desc}</small>
           <div className="portfolio__item-cta">
-          <a href={git} className='btn' target='_blank'>Github</a>
+          <a href={git} className='btn' target='_blank'>{linktype}</a>
           <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
     

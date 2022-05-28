@@ -20,17 +20,35 @@ nav a{
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
+    
 }
 nav a:hover {
     background: rgba(0,0,0,0.3);
 }
 
 nav a.active {
-    background: var(--color-primary);
-    color: var(--color-bg);
-    transform: translateY(-1.5rem) scale(130%);
-    box-shadow: 0 0.15rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+    animation: bounce 1s linear;
+    
 }
+@keyframes bounce {
+    20%, 50%, 80%, to{
+        transform: translateY(0) scale(100%);
+    }
+    40%{
+        transform: translateY(-30px) scale(130%);
+        background: var(--color-primary);
+        color: var(--color-bg);
+        box-shadow: 0 0.15rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+    }
+    70%{
+        transform: translateY(-15px) scale(115%);
+    }
+    90%{
+        transform: translateY(-4px) scale(104%);
+    }
+    
+}
+
 @media screen and (max-width: 600px) {
     nav{
         padding: 0.7rem;
