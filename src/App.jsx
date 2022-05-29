@@ -11,12 +11,13 @@ const Contact = lazy(()=> import('./components/contact/Contact'));
 const Footer = lazy(()=> import('./components/footer/Footer'));
 
 const App = () => {
-  <Suspense fallback={<div>LOADING</div>}>
+  
   return (
     
     <>
       <Header />
       <Nav />
+      <Suspense fallback={<div>LOADING</div>}>
       <About />
       <Services />
       <Portfolio />
@@ -24,8 +25,9 @@ const App = () => {
       <Certification />
       <Contact />
       <Footer />
+      </Suspense>
     </>
-  )</Suspense>
+  )
 }
 
 export default App
