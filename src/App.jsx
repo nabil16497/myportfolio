@@ -1,13 +1,13 @@
-import React, {Suspense, lazy} from 'react'
+import React from 'react'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
-const About = lazy(() => import('./components/about/About'));
-const Services = lazy(()=> import('./components/services/Services'));
-const Portfolio = lazy(()=> import('./components/portfolio/Portfolio'));
-const ExtraActivities = lazy(()=> import('./components/extracurricularactivities/ExtracurricularActivities'));
-const Certification = lazy(()=> import('./components/certification/Certification'));
-const Contact = lazy(()=> import('./components/contact/Contact'));
-const Footer = lazy(()=> import('./components/footer/Footer'));
+import About from './components/about/About'
+import ExtraActivities from './components/extracurricularactivities/ExtracurricularActivities'
+import Services from './components/services/Services'
+import Portfolio from './components/portfolio/Portfolio'
+import Certification from './components/certification/Certification'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 
 
 
@@ -16,7 +16,6 @@ const App = () => {
     <>
       <Header />
       <Nav />
-      <Suspense fallback={<div>LOADING</div>}>
       <About />
       <Services />
       <Portfolio />
@@ -24,7 +23,6 @@ const App = () => {
       <Certification />
       <Contact />
       <Footer />
-      </Suspense>
     </>
   )
 }
