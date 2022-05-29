@@ -148,5 +148,7 @@ img{
     section  >h2{
         margin-top: 2rem;
     }
-    
+    .container__glass{
+        padding: 2rem 0 2rem 0;
+    }
 }
