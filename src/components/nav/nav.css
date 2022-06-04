@@ -22,12 +22,39 @@ nav a{
     font-size: 1.1rem;
     
 }
+.nametitle{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    
+    transform: translateX(-0.9rem) translateY(-3.6rem);
+    opacity: 0%;
+    transition: var(--transition);
+
+}
+nav a:hover .nametitle{
+    transform: translateY(-5rem) translateX(-0.9rem);
+    
+    animation: visibility 2s linear;
+
+}
 nav a:hover {
     background: rgba(0,0,0,0.3);
 }
 
 nav a.active {
     animation: bounce 1s linear;
+    
+}
+@keyframes visibility {
+    75%,from {
+        opacity: 100%;
+    }
+    to{
+        opacity: 0%;
+    }
     
 }
 @keyframes bounce {
