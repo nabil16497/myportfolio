@@ -36,9 +36,7 @@ const skills = [
     {
       p:'Blueprint or Visual Scripting(Unreal Engine)'
     },
-    {
-      p:'Ciruit Schematic Design and Visual Scripting'
-    }
+    
 
     ]
   },
@@ -67,9 +65,6 @@ const skills = [
         p:'Jupyter Notebook'
       },
       {
-        p:'Weka'
-      },
-      {
         p:'GitHub'
       },
       {
@@ -78,12 +73,7 @@ const skills = [
       {
         p:'Unreal Engine 4'
       },
-      {
-        p:'Multisim'
-      },
-      {
-        p:'Proteus'
-      }
+     
       
     ]
   },
@@ -128,9 +118,6 @@ const skills = [
         p:'Audio Editing'
       },
       {
-        p:'2D Animation'
-      },
-      {
         p:'3D Modeling'
       },
       {
@@ -156,9 +143,6 @@ const skills = [
       },
       {
         p:'Adobe Premiere Pro'
-      },
-      {
-        p:'Adobe After Effects'
       },
       {
         p:'Adobe Xd'

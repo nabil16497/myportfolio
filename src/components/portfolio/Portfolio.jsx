@@ -13,6 +13,8 @@ import PADIMG3 from '../../assets/buildings.jpg'
 import PADIMG4 from '../../assets/city.jpg'
 import PADIMG5 from '../../assets/uproom.jpg'
 import PADIMG6 from '../../assets/crane.jpg'
+import PADIMG7 from '../../assets/bbcnews.jpg'
+import PADIMG8 from '../../assets/ballbounce.jpg'
 
 
 const dataart = [
@@ -23,9 +25,16 @@ const dataart = [
     desc: "",
     link: "",
   },*/
+  {
+    id: 7,
+    image: PADIMG7,
+    title: "News Channel | Globe Loop (3D Animation)",
+    desc: "Cinema 4D",
+    link: "https://www.behance.net/gallery/145498241/GLOBE-ANIMATION-%28NEWS-CHANNEL-GLOBE-LOOP%29",
+  },
   
   {
-    id: 2,
+    id: 6,
     image: PADIMG6,
     title: "Crane (Rigged 3D Model)",
     desc: "Cinema 4D ",
@@ -33,7 +42,7 @@ const dataart = [
     
   },
   {
-    id: 1,
+    id: 5,
     image: PADIMG5,
     title: "UP Movie Room (3D Model)",
     desc: "Cinema 4D",
@@ -41,7 +50,7 @@ const dataart = [
     
   },
   {
-    id: 3,
+    id: 4,
     image: PADIMG4,
     title: "City (3D Model)",
     desc: "Cinema 4D",
@@ -49,7 +58,7 @@ const dataart = [
     
   },
   {
-    id: 4,
+    id: 3,
     image: PADIMG3,
     title: "Buildings (3D Model)",
     desc: "Cinema 4D",
@@ -57,7 +66,14 @@ const dataart = [
     
   },
   {
-    id: 5,
+    id: 3,
+    image: PADIMG8,
+    title: "Bouncing Ball (3D Animation)",
+    desc: "Cinema 4D",
+    link: "https://www.behance.net/gallery/145502081/Bouncing-Ball",
+  },
+  {
+    id: 2,
     image: PADIMG2,
     title: "Soler System (3D Model)",
     desc: "Cinema 4D",
@@ -65,7 +81,7 @@ const dataart = [
     
   },
   {
-    id: 5,
+    id: 1,
     image: PADIMG1,
     title: "Nobu (Game Menu UI)",
     desc: "Photoshop",
