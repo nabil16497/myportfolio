@@ -19,7 +19,7 @@ const Header = () => {
         <img src={ME} alt="Me" />
       </div>
 
-      <a href='#footer' className='scroll__down'>Scroll Down</a>
+      <a href='#footer' className='scroll__down'>SCROLL DOWN</a>
       </div>
       </div>
     </header>

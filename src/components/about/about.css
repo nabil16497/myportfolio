@@ -26,6 +26,7 @@
 
 .about__me-image:hover{
     transform: rotate(0);
+    box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 .about__cards{
@@ -48,6 +49,7 @@
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+    
 }
 .about__icon{
   color: var(--color-primary);  
