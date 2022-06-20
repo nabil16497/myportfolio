@@ -15,6 +15,7 @@ import PADIMG5 from '../../assets/uproom.jpg'
 import PADIMG6 from '../../assets/crane.jpg'
 import PADIMG7 from '../../assets/bbcnews.jpg'
 import PADIMG8 from '../../assets/ballbounce.jpg'
+import PADIMG9 from '../../assets/roomconceptart.jpg'
 
 
 const dataart = [
@@ -25,6 +26,13 @@ const dataart = [
     desc: "",
     link: "",
   },*/
+  {
+    id: 7,
+    image: PADIMG9,
+    title: "Room Concept Art | Color  (One Point Perspective)",
+    desc: "Photoshop",
+    link: "https://www.behance.net/gallery/146399679/Room-Concept-Art-Color",
+  },
   {
     id: 7,
     image: PADIMG7,
@@ -117,7 +125,7 @@ const data = [
     desc: "Python | Machine Learning | Deep Learning",
     linktype: 'Github',
     git: "https://github.com/nabil16497/Audio-Noise-Data-Machine-Learning-and-Deep-Lerning",
-    demo: "https://youtube.com"
+    demo: "https://drive.google.com/file/d/1xcNoRYSYrxPq64GsAvv6gkAXpqdFFJ-E/view?usp=sharing"
   },
   {
     id:5,
