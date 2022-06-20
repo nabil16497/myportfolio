@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.cb75935a.css",
-    "main.js": "/myportfolio/static/js/main.8194e67d.js",
+    "main.js": "/myportfolio/static/js/main.d96df465.js",
     "static/media/bgimg.jpg": "/myportfolio/static/media/bgimg.03632630138d0e3ccc23.jpg",
     "static/media/dp.png": "/myportfolio/static/media/dp.e38c8285840e3d36e051.png",
     "static/media/CV.pdf": "/myportfolio/static/media/CV.f05cd62c34a4bc6f4f8a.pdf",
@@ -17,16 +17,17 @@
     "static/media/java.png": "/myportfolio/static/media/java.67ebe31845505f1d5a02.png",
     "static/media/bbcnews.jpg": "/myportfolio/static/media/bbcnews.ab182792018ab0ea137d.jpg",
     "static/media/portal.png": "/myportfolio/static/media/portal.5f29b974b535fd5e414a.png",
+    "static/media/roomconceptart.jpg": "/myportfolio/static/media/roomconceptart.f9b8bdd8071b482b9472.jpg",
     "static/media/crane.jpg": "/myportfolio/static/media/crane.622d65decb03544f9aaf.jpg",
     "static/media/os.png": "/myportfolio/static/media/os.9416e6febfa74e9d9df5.png",
     "static/media/solarsystem.jpg": "/myportfolio/static/media/solarsystem.5b1c4ab0c4f553d43b61.jpg",
     "static/media/ballbounce.jpg": "/myportfolio/static/media/ballbounce.48ed262186d6238cf3a2.jpg",
     "index.html": "/myportfolio/index.html",
     "main.cb75935a.css.map": "/myportfolio/static/css/main.cb75935a.css.map",
-    "main.8194e67d.js.map": "/myportfolio/static/js/main.8194e67d.js.map"
+    "main.d96df465.js.map": "/myportfolio/static/js/main.d96df465.js.map"
   },
   "entrypoints": [
     "static/css/main.cb75935a.css",
-    "static/js/main.8194e67d.js"
+    "static/js/main.d96df465.js"
   ]
 }
