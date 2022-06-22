@@ -78,3 +78,86 @@
     
 
     }   
+
+
+
+
+    
+input#inputHiddenContent,#inputShownContent {
+    display: none;
+    transform: var(--transition);
+  }
+  
+  span#spanHiddenContent {
+    display: none;
+    transform: var(--transition);
+  }
+  
+  input#inputShownContent:checked ~ span#spanHiddenContent {
+    display: block;
+    transform: var(--transition);
+  }
+  
+  input#inputHiddenContent:checked ~ span#spanHiddenContent {
+    display: none;
+    transform: var(--transition);
+  }
+  
+  input#inputShownContent:checked ~ #myReadMore{
+      display: none;
+      transform: var(--transition);
+  }
+
+
+  
+
+
+
+  input#inputHiddenContent1,#inputShownContent1 {
+    display: none;
+    transform: var(--transition);
+  }
+  
+  span#spanHiddenContent1 {
+    display: none;
+    transform: var(--transition);
+  }
+  
+  input#inputShownContent1:checked ~ span#spanHiddenContent1 {
+    display: block;
+    transform: var(--transition);
+  }
+  
+  input#inputHiddenContent1:checked ~ span#spanHiddenContent1 {
+    display: none;
+    transform: var(--transition);
+  }
+  
+  input#inputShownContent1:checked ~ #myReadMore1{
+      display: none;
+      transform: var(--transition);
+  }
+
+
+  
+    
+.btnshow{
+    width: max-content;
+    color: var(--color-primary);
+    display: flex;
+    margin: 1rem 0 1rem 0;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    border: 1px solid var(--color-primary);
+    transform: var(--transition);
+    left: 50%;
+    transform: translate(-50%,0);
+    position: relative;
+    z-index: 1 
+}
+
+.btnshow:hover{
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}

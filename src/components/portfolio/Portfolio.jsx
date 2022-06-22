@@ -179,8 +179,16 @@ const Portfolio = () => {
     <section id='portfolio'>
       <h5>My Works</h5>
       <h2>Development Portfolio</h2>
+
+      
       
       <div className="container__glass">
+
+      <input type='radio' id="inputShownContent" name="group1" />
+      <span id="myReadMore">
+        <label for="inputShownContent"><span className='btnshow'>Show Projects</span></label>
+      </span>
+      <span id="spanHiddenContent">
 
       <div className="container portfolio__container">
 
@@ -205,12 +213,36 @@ const Portfolio = () => {
       }
 
       </div>
+      <label for="inputHiddenContent">
+    <span className='btnshow'>Hide</span>
+    </label>
+    </span>
+    <input type='radio' id="inputHiddenContent" name="group1" />
+
       </div>
+    
+
+    
+
+
+
 
       <section></section>
+
+      
+
       <h2>Design and Artwork Portfolio</h2>
+
+
+     
       
       <div className="container__glass">
+
+      <input type='radio' id="inputShownContent1" name="group2" />
+      <span id="myReadMore1">
+        <label for="inputShownContent1"><span className='btnshow'>Show Projects</span></label>
+      </span>
+      <span id="spanHiddenContent1">
 
       <div className="container portfolio__container">
 
@@ -234,8 +266,24 @@ const Portfolio = () => {
       }
 
       </div>
+      
+      <label for="inputHiddenContent1">
+      
+    <span className='btnshow'>Hide</span>
+    </label>
+    </span>
+    <input type='radio' id="inputHiddenContent1" name="group2"/>
+
       </div>
+
+
+
+
+
     </section>
+
+
+      
   )
 }
 
