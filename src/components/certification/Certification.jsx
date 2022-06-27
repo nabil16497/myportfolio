@@ -14,29 +14,35 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import 'swiper/css/autoplay';
+import IMG1 from '../../assets/deanslist.jpg'
+import IMG2 from '../../assets/acclogodesign.jpg'
+import IMG3 from '../../assets/gamedevtrain.jpg'
 
 
 
 
 const data =[
   {
-    avatar: '',
+    avatar: IMG1,
     type: <BsAward/>,
     name: "DEAN'S LIST HONOR",
-    inst: "Faculty of Science and Technology- American International University- Bangladesh | Fall 2018-2019"
+    inst: "Faculty of Science and Technology- American International University- Bangladesh | Fall 2018-2019",
+    inst2: ""
   },
   
   {
-    avatar: '',
+    avatar: IMG2,
     type: <BsAward/>,
     name: '2nd RUNNER UP | LOGO DESIGN COMPETITION',
-    inst: "AIUB CS Fest | 2018"
+    inst: "AIUB CS Fest | 2018",
+    inst2: ""
   },
   {
-    avatar: '',
+    avatar: IMG3,
     type: <RiFileList2Line/>,
     name: 'TRAINING FOR CROSS-PLATFORM GAME DEVELOPMENT',
-    inst: "Mars Solution | organized by Bangladesh ICT Division | 2021"
+    inst: "Mars Solution | organized by Bangladesh ICT Division | 2021",
+    inst2: "Concept Art, Game Design, Level Design, 3D Modeling/Animation/Rigging, Game Development (Blueprint)"
   },
   
 ]
@@ -56,16 +62,21 @@ const Certification = () => {
        pagination={{ clickable: true }}
       >
         {
-          data.map(({avatar, type, name, inst}, index) => {
+          data.map(({avatar, type, name, inst, inst2}, index) => {
             return(
               <SwiperSlide key={index} className='certification'>
-                {/*<div className="client__avatar">
-                <img src={avatar} alt='' />
-                </div>*/}
-                <h5 className='client__name'>{type} {name}</h5>
-                <small className='client__review'>
+                <div className="certificate__img">
+                <img src={avatar} alt={name} />
+                <small className='certification__include'>
+                  {inst2}
+                </small>
+                </div>
+                
+                <h5 className='certificate__name'>{type} {name}</h5>
+                <small className='certificate__review'>
                   {inst}
                 </small>
+        
               </SwiperSlide>
 
             )
