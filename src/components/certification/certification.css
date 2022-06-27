@@ -7,12 +7,16 @@
     display: block;
     margin: 0 auto 1rem;
     width: 100%;
+    box-shadow: .5rem .7rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    overflow: hidden;
     
 
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet{
-  background: var(--color-primary);  
+  background: var(--color-primary);
+  transform: translateY(-3rem);
 
 }
 

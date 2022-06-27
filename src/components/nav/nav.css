@@ -28,14 +28,13 @@ nav a{
     border-radius: 5px;
     padding: 0.2rem;
     font-size: 0.9rem;
-    
-    transform: translateX(-0.9rem) translateY(-3.6rem);
+    transform: translateX(-.7rem) translateY(-3.3rem);
     opacity: 0%;
     transition: var(--transition);
 
 }
 nav a:hover .nametitle{
-    transform: translateY(-5rem) translateX(-0.9rem);
+    transform: translateY(-3.8rem) translateX(-.7rem);
     
     animation: visibility 2s linear;
 
