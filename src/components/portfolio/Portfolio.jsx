@@ -11,14 +11,16 @@ import PIMG7 from '../../assets/freerunner.jpg'
 
 import PADIMG1 from '../../assets/nobu.jpg'
 import PADIMG2 from '../../assets/solarsystem.jpg'
-import PADIMG3 from '../../assets/ballbounce.jpg'
-import PADIMG4 from '../../assets/buildings.jpg'
-import PADIMG5 from '../../assets/city.jpg'
-import PADIMG6 from '../../assets/uproom.jpg'
-import PADIMG7 from '../../assets/crane.jpg'
-import PADIMG8 from '../../assets/bbcnews.jpg'
-import PADIMG9 from '../../assets/roomconceptart.jpg'
-import PADIMG10 from '../../assets/aiub_c_building.jpg'
+import PADIMG3 from '../../assets/buildings.jpg'
+import PADIMG4 from '../../assets/city.jpg'
+import PADIMG5 from '../../assets/uproom.jpg'
+import PADIMG6 from '../../assets/crane.jpg'
+import PADIMG7 from '../../assets/bbcnews.jpg'
+import PADIMG8 from '../../assets/roomconceptart.jpg'
+import PADIMG9 from '../../assets/aiub_c_building.jpg'
+import PADIMG10 from '../../assets/speaker.jpg'
+import PADIMG11 from '../../assets/pokeball.jpg'
+
 
 
 const dataart = [
@@ -30,66 +32,74 @@ const dataart = [
     link: "",
   },*/
   {
+    id: 11,
+    image: PADIMG11,
+    title: "Pokeball (3D Model)",
+    desc: "Cinema 4D",
+    link: "https://www.behance.net/gallery/150712311/Pokeball",
+  },
+  {
     id: 10,
     image: PADIMG10,
+    title: "Speaker (3D Model)",
+    desc: "Cinema 4D",
+    link: "https://www.behance.net/gallery/150860079/Speaker",
+  },
+  {
+    id: 9,
+    image: PADIMG9,
     title: "AIUB C Building (3D Model)",
     desc: "Cinema 4D",
     link: "https://www.behance.net/gallery/147420281/AIUB-C-Building",
   },
   {
-    id: 9,
-    image: PADIMG9,
+    id: 8,
+    image: PADIMG8,
     title: "Room Concept Art | Color  (One Point Perspective)",
     desc: "Photoshop",
     link: "https://www.behance.net/gallery/146399679/Room-Concept-Art-Color",
   },
   {
-    id: 8,
-    image: PADIMG8,
+    id: 7,
+    image: PADIMG7,
     title: "News Channel | Globe Loop (3D Animation)",
     desc: "Cinema 4D",
     link: "https://www.behance.net/gallery/145498241/GLOBE-ANIMATION-%28NEWS-CHANNEL-GLOBE-LOOP%29",
   },
   
   {
-    id: 7,
-    image: PADIMG7,
+    id: 6,
+    image: PADIMG6,
     title: "Crane (Rigged 3D Model)",
     desc: "Cinema 4D",
     link: "https://www.behance.net/gallery/143417617/Crane-%28Rigged%29",
     
   },
   {
-    id: 6,
-    image: PADIMG6,
+    id: 5,
+    image: PADIMG5,
     title: "UP Movie Room (3D Model)",
     desc: "Cinema 4D",
     link: "https://www.behance.net/gallery/143362931/Room-%28UP-Movie%29",
     
   },
   {
-    id: 5,
-    image: PADIMG5,
+    id: 4,
+    image: PADIMG4,
     title: "City (3D Model)",
     desc: "Cinema 4D",
     link: "https://www.behance.net/gallery/143417899/City",
     
   },
   {
-    id: 4,
-    image: PADIMG4,
+    id: 3,
+    image: PADIMG3,
     title: "Buildings (3D Model)",
     desc: "Cinema 4D",
     link: "https://www.behance.net/gallery/143412693/Buildings",
     
   },
-  {
-    id: 3,
-    image: PADIMG3,
-    title: "Bouncing Ball (3D Animation)",
-    desc: "Cinema 4D",
-    link: "https://www.behance.net/gallery/145502081/Bouncing-Ball",
-  },
+ 
   {
     id: 2,
     image: PADIMG2,
