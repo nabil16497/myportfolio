@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.4931f68f.css",
-    "main.js": "/myportfolio/static/js/main.1e22542e.js",
+    "main.js": "/myportfolio/static/js/main.82b90953.js",
     "static/media/bgimg.jpg": "/myportfolio/static/media/bgimg.03632630138d0e3ccc23.jpg",
     "static/media/dp.png": "/myportfolio/static/media/dp.e38c8285840e3d36e051.png",
     "static/media/about1.jpg": "/myportfolio/static/media/about1.2d6389972aec159f23c1.jpg",
-    "static/media/CV.pdf": "/myportfolio/static/media/CV.f05cd62c34a4bc6f4f8a.pdf",
+    "static/media/CV.pdf": "/myportfolio/static/media/CV.4b5b99dc2398edec4062.pdf",
     "static/media/deanslist.jpg": "/myportfolio/static/media/deanslist.e7f2cb40433b00357a43.jpg",
     "static/media/gamedevtrain.jpg": "/myportfolio/static/media/gamedevtrain.84013e4c3ede94baa40f.jpg",
     "static/media/city.jpg": "/myportfolio/static/media/city.8587fbfccbfc43d43853.jpg",
@@ -29,10 +29,10 @@
     "static/media/solarsystem.jpg": "/myportfolio/static/media/solarsystem.5b1c4ab0c4f553d43b61.jpg",
     "index.html": "/myportfolio/index.html",
     "main.4931f68f.css.map": "/myportfolio/static/css/main.4931f68f.css.map",
-    "main.1e22542e.js.map": "/myportfolio/static/js/main.1e22542e.js.map"
+    "main.82b90953.js.map": "/myportfolio/static/js/main.82b90953.js.map"
   },
   "entrypoints": [
     "static/css/main.4931f68f.css",
-    "static/js/main.1e22542e.js"
+    "static/js/main.82b90953.js"
   ]
 }
