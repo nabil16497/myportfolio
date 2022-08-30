@@ -20,6 +20,10 @@ import PADIMG8 from '../../assets/roomconceptart.jpg'
 import PADIMG9 from '../../assets/aiub_c_building.jpg'
 import PADIMG10 from '../../assets/speaker.jpg'
 import PADIMG11 from '../../assets/pokeball.jpg'
+import PADIMG12 from '../../assets/sofa.jpg'
+import PADIMG13 from '../../assets/headphone.jpg'
+import PADIMG14 from '../../assets/barcelonachair.jpg'
+import PADIMG15 from '../../assets/wallclock.jpg'
 
 
 
@@ -31,6 +35,34 @@ const dataart = [
     desc: "",
     link: "",
   },*/
+  {
+    id: 15,
+    image: PADIMG15,
+    title: "Wall Clock (3D Model)",
+    desc: "Cinema 4D",
+    link: "https://www.behance.net/gallery/151546103/Wall-Clock",
+  },
+  {
+    id: 14,
+    image: PADIMG14,
+    title: "Barcelona Chair (3D Model)",
+    desc: "Cinema 4D",
+    link: "https://www.behance.net/gallery/151546551/Barcelona-Chair",
+  },
+  {
+    id: 13,
+    image: PADIMG13,
+    title: "Headphone (3D Model)",
+    desc: "Cinema 4D",
+    link: "https://www.behance.net/gallery/151546347/Headphone",
+  },
+  {
+    id: 12,
+    image: PADIMG12,
+    title: "Sofa (3D Model)",
+    desc: "Cinema 4D",
+    link: "https://www.behance.net/gallery/151546743/Sofa",
+  },
   {
     id: 11,
     image: PADIMG11,
