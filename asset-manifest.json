@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.4931f68f.css",
-    "main.js": "/myportfolio/static/js/main.82b90953.js",
+    "main.js": "/myportfolio/static/js/main.203d8863.js",
     "static/media/bgimg.jpg": "/myportfolio/static/media/bgimg.03632630138d0e3ccc23.jpg",
     "static/media/dp.png": "/myportfolio/static/media/dp.e38c8285840e3d36e051.png",
     "static/media/about1.jpg": "/myportfolio/static/media/about1.2d6389972aec159f23c1.jpg",
@@ -25,14 +25,18 @@
     "static/media/portal.png": "/myportfolio/static/media/portal.5f29b974b535fd5e414a.png",
     "static/media/roomconceptart.jpg": "/myportfolio/static/media/roomconceptart.f9b8bdd8071b482b9472.jpg",
     "static/media/crane.jpg": "/myportfolio/static/media/crane.622d65decb03544f9aaf.jpg",
+    "static/media/wallclock.jpg": "/myportfolio/static/media/wallclock.32dceb535fcf7ed4b3a2.jpg",
     "static/media/os.png": "/myportfolio/static/media/os.9416e6febfa74e9d9df5.png",
+    "static/media/headphone.jpg": "/myportfolio/static/media/headphone.0691883a89fa18d80fd9.jpg",
+    "static/media/barcelonachair.jpg": "/myportfolio/static/media/barcelonachair.77c7044399044d5234f2.jpg",
+    "static/media/sofa.jpg": "/myportfolio/static/media/sofa.f383d4dfb939e6429b92.jpg",
     "static/media/solarsystem.jpg": "/myportfolio/static/media/solarsystem.5b1c4ab0c4f553d43b61.jpg",
     "index.html": "/myportfolio/index.html",
     "main.4931f68f.css.map": "/myportfolio/static/css/main.4931f68f.css.map",
-    "main.82b90953.js.map": "/myportfolio/static/js/main.82b90953.js.map"
+    "main.203d8863.js.map": "/myportfolio/static/js/main.203d8863.js.map"
   },
   "entrypoints": [
     "static/css/main.4931f68f.css",
-    "static/js/main.82b90953.js"
+    "static/js/main.203d8863.js"
   ]
 }
