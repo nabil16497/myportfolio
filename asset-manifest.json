@@ -1,15 +1,11 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.4931f68f.css",
-    "main.js": "/myportfolio/static/js/main.203d8863.js",
-    "static/media/bgimg.jpg": "/myportfolio/static/media/bgimg.03632630138d0e3ccc23.jpg",
-    "static/media/dp.png": "/myportfolio/static/media/dp.e38c8285840e3d36e051.png",
-    "static/media/about1.jpg": "/myportfolio/static/media/about1.2d6389972aec159f23c1.jpg",
+    "main.css": "/myportfolio/static/css/main.5710d1e2.css",
+    "main.js": "/myportfolio/static/js/main.1feb47de.js",
+    "static/media/dp.png": "/myportfolio/static/media/dp.b8be3ff097b9d0815e73.png",
     "static/media/CV.pdf": "/myportfolio/static/media/CV.4b5b99dc2398edec4062.pdf",
-    "static/media/deanslist.jpg": "/myportfolio/static/media/deanslist.e7f2cb40433b00357a43.jpg",
-    "static/media/gamedevtrain.jpg": "/myportfolio/static/media/gamedevtrain.84013e4c3ede94baa40f.jpg",
+    "static/media/bgimg.jpg": "/myportfolio/static/media/bgimg.8b3c534b4856ca2785ff.jpg",
     "static/media/city.jpg": "/myportfolio/static/media/city.8587fbfccbfc43d43853.jpg",
-    "static/media/acclogodesign.jpg": "/myportfolio/static/media/acclogodesign.78ce444ff2cf35a97327.jpg",
     "static/media/uproom.jpg": "/myportfolio/static/media/uproom.69b0ff7d816a9d4a4e5c.jpg",
     "static/media/nobu.jpg": "/myportfolio/static/media/nobu.bc10b1823d1e49cf84f8.jpg",
     "static/media/AI.jpg": "/myportfolio/static/media/AI.914135e592181a8319a4.jpg",
@@ -19,11 +15,15 @@
     "static/media/csharp.jpg": "/myportfolio/static/media/csharp.86abcc09abd44c00038d.jpg",
     "static/media/buildings.jpg": "/myportfolio/static/media/buildings.0aa9362d5db24a150013.jpg",
     "static/media/java.png": "/myportfolio/static/media/java.67ebe31845505f1d5a02.png",
+    "static/media/about1.jpg": "/myportfolio/static/media/about1.e6d20a71d0079506c2ee.jpg",
     "static/media/speaker.jpg": "/myportfolio/static/media/speaker.bf7aeefb077dcdb32f07.jpg",
+    "static/media/gamedevtrain.jpg": "/myportfolio/static/media/gamedevtrain.ba3c28ca5d65192929e4.jpg",
     "static/media/aiub_c_building.jpg": "/myportfolio/static/media/aiub_c_building.3973410bdf24a2ef8b2e.jpg",
+    "static/media/deanslist.jpg": "/myportfolio/static/media/deanslist.3c899a4d29dfe1147561.jpg",
     "static/media/bbcnews.jpg": "/myportfolio/static/media/bbcnews.ab182792018ab0ea137d.jpg",
     "static/media/portal.png": "/myportfolio/static/media/portal.5f29b974b535fd5e414a.png",
     "static/media/roomconceptart.jpg": "/myportfolio/static/media/roomconceptart.f9b8bdd8071b482b9472.jpg",
+    "static/media/acclogodesign.jpg": "/myportfolio/static/media/acclogodesign.999073205aa6a4a493db.jpg",
     "static/media/crane.jpg": "/myportfolio/static/media/crane.622d65decb03544f9aaf.jpg",
     "static/media/wallclock.jpg": "/myportfolio/static/media/wallclock.32dceb535fcf7ed4b3a2.jpg",
     "static/media/os.png": "/myportfolio/static/media/os.9416e6febfa74e9d9df5.png",
@@ -32,11 +32,11 @@
     "static/media/sofa.jpg": "/myportfolio/static/media/sofa.f383d4dfb939e6429b92.jpg",
     "static/media/solarsystem.jpg": "/myportfolio/static/media/solarsystem.5b1c4ab0c4f553d43b61.jpg",
     "index.html": "/myportfolio/index.html",
-    "main.4931f68f.css.map": "/myportfolio/static/css/main.4931f68f.css.map",
-    "main.203d8863.js.map": "/myportfolio/static/js/main.203d8863.js.map"
+    "main.5710d1e2.css.map": "/myportfolio/static/css/main.5710d1e2.css.map",
+    "main.1feb47de.js.map": "/myportfolio/static/js/main.1feb47de.js.map"
   },
   "entrypoints": [
-    "static/css/main.4931f68f.css",
-    "static/js/main.203d8863.js"
+    "static/css/main.5710d1e2.css",
+    "static/js/main.1feb47de.js"
   ]
 }
