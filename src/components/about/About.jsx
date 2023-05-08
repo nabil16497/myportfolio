@@ -3,6 +3,7 @@ import './about.css'
 import ME from '../../assets/about1.jpg'
 import {FaGraduationCap} from 'react-icons/fa'
 import {AiOutlineFolderAdd} from 'react-icons/ai'
+import {BsCheck} from 'react-icons/bs'
 
 const About = () => {
   return (
@@ -19,9 +20,25 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
            <article className='about__card'>
-             <FaGraduationCap className='about__icon' />
+            <div className='about__card__edu'>
+
+              <h6><BsCheck/> AMERICAN INTERNATIONAL UNIVERSITY BANGLADESH</h6>
+              <small>Bachelor of Science in Computer Science
+              Engineering (2018-2021)<br></br>
+              CGPA- 3.9 out of 4</small>
+              <br></br>
+              <h6><BsCheck/> B C I C COLLEGE</h6>
+              <small>HSC (2017)</small><br></br>
+              <small>GPA- 4.25 out of 5</small>
+              <br></br>
+              <h6><BsCheck/> MONIPUR HIGH SCHOOL AND COLLEGE</h6>
+              <small>SSC (2015)</small><br></br>
+              <small>GPA- 4.89 out of 5</small></div>
+
+
+              <span><FaGraduationCap className='about__icon' />
             <h5>Education</h5>
-            <small>BSc CSE<br></br>(American International University Bangladesh)</small>
+            <small>BSc CSE<br></br>(American International University Bangladesh)</small></span>
            </article>
 
 

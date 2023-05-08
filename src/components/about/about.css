@@ -17,6 +17,7 @@
     place-items: center;
 }
 
+
 .about__me-image{
     border-radius: 1rem;
     overflow: hidden;
@@ -35,6 +36,7 @@
  gap: 1.5rem;
 }
 
+
 .about__card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
@@ -51,6 +53,21 @@
     cursor: default;
     
 }
+
+.about__card:hover span{
+    display: none;
+    
+}
+.about__card div{
+    display: none;
+}
+.about__card:hover div{
+    display:block;
+    text-align: left;
+    
+}
+
+
 .about__icon{
   color: var(--color-primary);  
   font-size: 1.4rem;
@@ -70,6 +87,8 @@
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
+
+
 
 
 
@@ -94,8 +113,8 @@
         margin: 0 auto 3rem;
     }
     .about__cards{
-       grid-template-columns: 1fr 1fr;
-       gap: 1rem;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
        
     }
   
