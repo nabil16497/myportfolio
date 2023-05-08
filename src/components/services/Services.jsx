@@ -112,10 +112,7 @@ const skills = [
         p:'Illustration and Logo Design'
       },
       {
-        p:'Video Editing'
-      },
-      {
-        p:'Audio Editing'
+        p:'Basic Video & Audio Editing'
       },
       {
         p:'3D Modeling'
@@ -136,7 +133,7 @@ const skills = [
         p:'Adobe Photoshop'
       },
       {
-        p:'Adobe Photoshop'
+        p:'Adobe Illustrator'
       },
       {
         p:'Adobe Audition'
