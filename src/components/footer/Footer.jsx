@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {FaLinkedinIn} from 'react-icons/fa'
-import {FiYoutube} from 'react-icons/fi'
+import {SiGoogledrive} from 'react-icons/si'
 import {BsBehance} from 'react-icons/bs'
 import {FiGithub} from 'react-icons/fi'
 
@@ -27,7 +27,8 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/nabil16497/" target='_blank'><FaLinkedinIn/></a>
         <a href='https://github.com/nabil16497' target='_blank'><FiGithub /></a>
         <a href='https://www.behance.net/mmnabil' target='_blank'><BsBehance /></a>
-        <a href="https://www.youtube.com/c/nabilsflute" target='_blank'><FiYoutube/></a>
+        <a href='https://drive.google.com/drive/folders/1zkloX4fy7_hLbIhPy4ZN-Nt85wSE1k14?usp=sharing' target='_blank'><SiGoogledrive /></a>
+        
        </div>
        <div className="footer__copyright">
          <small>&copy; Nabil's Portal.</small>
