@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.3da381a9.css",
-    "main.js": "/myportfolio/static/js/main.e9ec2d49.js",
-    "static/media/All My Art Works At A Glance.mp4": "/myportfolio/static/media/All My Art Works At A Glance.d1134fa2ad77ad8dc52d.mp4",
+    "main.css": "/myportfolio/static/css/main.2730b9df.css",
+    "main.js": "/myportfolio/static/js/main.eefc3325.js",
+    "static/media/All My Art Works At A Glance.mp4": "/myportfolio/static/media/All My Art Works At A Glance.5284874b41cfa6cba574.mp4",
     "static/media/All My 3D Works At A Glance.mp4": "/myportfolio/static/media/All My 3D Works At A Glance.13b467a0c2464c5ece2a.mp4",
     "static/media/dp.png": "/myportfolio/static/media/dp.1b10cc8cde8ad21fb9ff.png",
-    "static/media/CV.pdf": "/myportfolio/static/media/CV.4b5b99dc2398edec4062.pdf",
+    "static/media/CV.pdf": "/myportfolio/static/media/CV.e83a9ae2afe9af766fe4.pdf",
     "static/media/bgimg.jpg": "/myportfolio/static/media/bgimg.8b3c534b4856ca2785ff.jpg",
     "static/media/AI.jpg": "/myportfolio/static/media/AI.914135e592181a8319a4.jpg",
     "static/media/audiol.png": "/myportfolio/static/media/audiol.018b8791232acafad1cb.png",
@@ -19,11 +19,11 @@
     "static/media/acclogodesign.jpg": "/myportfolio/static/media/acclogodesign.999073205aa6a4a493db.jpg",
     "static/media/os.png": "/myportfolio/static/media/os.9416e6febfa74e9d9df5.png",
     "index.html": "/myportfolio/index.html",
-    "main.3da381a9.css.map": "/myportfolio/static/css/main.3da381a9.css.map",
-    "main.e9ec2d49.js.map": "/myportfolio/static/js/main.e9ec2d49.js.map"
+    "main.2730b9df.css.map": "/myportfolio/static/css/main.2730b9df.css.map",
+    "main.eefc3325.js.map": "/myportfolio/static/js/main.eefc3325.js.map"
   },
   "entrypoints": [
-    "static/css/main.3da381a9.css",
-    "static/js/main.e9ec2d49.js"
+    "static/css/main.2730b9df.css",
+    "static/js/main.eefc3325.js"
   ]
 }
