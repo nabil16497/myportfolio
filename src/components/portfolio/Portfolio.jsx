@@ -37,7 +37,7 @@ const dataart = [
     video: PADIMG1, // Use the imported variable for the video URL
     title: "2D Art Works",
     desc: "",
-    link: "",
+    link: "https://drive.google.com/drive/folders/17ubLtALryOv07L7rImz86nJ7GH_f-Bfs",
   },
 
   {
@@ -45,7 +45,7 @@ const dataart = [
     video: PADIMG2, // Use the imported variable for the video URL
     title: "3D Models",
     desc: "",
-    link: "",
+    link: "https://drive.google.com/drive/folders/1MhUdEx1q617kx4R-kuYHNaQckMoMq52x",
   },
 ];
 
@@ -328,19 +328,18 @@ const Portfolio = () => {
       <div className="container portfolio__container1">
 
       {
-  dataart.map(({ id, video, title, desc, link }) => {
+  dataart.map(({ id, video, title, link }) => {
     return (
       <article key={id} className='portfolio__item'>
         <div className="portfolio__item-video">
-          <video autoPlay loop muted>
+          <video autoPlay loop muted playsInline> 
             <source src={video} type="video/mp4" />
-            Your browser does not support the video tag.
+            Sorry. Your browser does not support the video.
           </video>
         </div>
         <h3>{title}</h3>
-        <small className='text-light'>{desc}</small>
         <div className="portfolio__item-cta">
-          <a href={link} className='btn' target='_blank'>Check It Out</a>
+          <a href={link} className='btn' target='_blank'>Check them Out</a>
         </div>
       </article>
     )
