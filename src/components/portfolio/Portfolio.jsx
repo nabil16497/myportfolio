@@ -8,7 +8,7 @@ import PIMG5 from '../../assets/portal.png'
 import PIMG6 from '../../assets/audiol.png'
 import PIMG7 from '../../assets/freerunner.jpg'
 
-
+/*
 import PADIMG1 from '../../assets/nobu.jpg'
 import PADIMG2 from '../../assets/solarsystem.jpg'
 import PADIMG3 from '../../assets/buildings.jpg'
@@ -24,21 +24,42 @@ import PADIMG12 from '../../assets/sofa.jpg'
 import PADIMG13 from '../../assets/headphone.jpg'
 import PADIMG14 from '../../assets/barcelonachair.jpg'
 import PADIMG15 from '../../assets/wallclock.jpg'
+*/
 
-
-
-
-
+import PADIMG1 from '../../assets/All My Art Works At A Glance.mp4';
+import PADIMG2 from '../../assets/All My 3D Works At A Glance.mp4';
 
 
 const dataart = [
-  /*{
+  {
+    id: 2,
+    video: PADIMG1, // Use the imported variable for the video URL
+    title: "2D Art Works",
+    desc: "",
+    link: "",
+  },
+
+  {
+    id: 1,
+    video: PADIMG2, // Use the imported variable for the video URL
+    title: "3D Models",
+    desc: "",
+    link: "",
+  },
+];
+
+
+
+
+
+/*const dataart = [
+  {
     id: ,
     image: PIMG,
     title: "",
     desc: "",
     link: "",
-  },*/
+  },
   {
     id: 15,
     image: PADIMG15,
@@ -154,6 +175,7 @@ const dataart = [
   },
 
 ]
+*/
 
 const data = [
   /*{
@@ -276,16 +298,18 @@ const Portfolio = () => {
     <input type='radio' id="inputHiddenContent" name="group1" />
 
       </div>
-    
-
-    
-
-
-
 
       <section></section>
 
       
+
+
+
+
+
+
+
+
 
       <h2>Design and Artwork Portfolio</h2>
 
@@ -300,26 +324,28 @@ const Portfolio = () => {
       </span>
       <span id="spanHiddenContent1">
 
-      <div className="container portfolio__container">
+      <div className="container portfolio__container1">
 
       {
-        dataart.map(({id, image, title, desc, link}) =>{
-          return(
-            <article key={id} className='portfolio__item'>
-          <div className="portfolio__item-image">
-          <img src={image} alt='' />
-          </div>
-          <h3>{title}</h3>
-          <small className='text-light'>{desc}</small>
-          <div className="portfolio__item-cta">
+  dataart.map(({ id, video, title, desc, link }) => {
+    return (
+      <article key={id} className='portfolio__item'>
+        <div className="portfolio__item-video">
+          <video autoPlay loop muted>
+            <source src={video} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <h3>{title}</h3>
+        <small className='text-light'>{desc}</small>
+        <div className="portfolio__item-cta">
           <a href={link} className='btn' target='_blank'>Check It Out</a>
-          </div>
-    
-        </article>
+        </div>
+      </article>
+    )
+  })
+}
 
-          )
-        })
-      }
 
       </div>
       
