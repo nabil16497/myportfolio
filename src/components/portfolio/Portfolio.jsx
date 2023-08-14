@@ -32,6 +32,7 @@ import PADIMG2 from '../../assets/All My 3D Works At A Glance.mp4';
 
 const dataart = [
   {
+    
     id: 2,
     video: PADIMG1, // Use the imported variable for the video URL
     title: "2D Art Works",
