@@ -59,7 +59,7 @@ const Certification = () => {
        spaceBetween={40}
        slidesPerView={1}
        autoplay={{delay:2000}}
-       pagination={{ clickable: true }}
+       
       >
         {
           data.map(({avatar, type, name, inst, inst2}, index) => {

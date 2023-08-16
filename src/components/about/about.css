@@ -1,25 +1,26 @@
 .about__container{
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    grid-template-columns: 30% 60%;
+    gap: 10%;
 }
 .about__me{
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 1rem;
+    border-radius: 0rem;
 
     background: linear-gradient(
         0deg,
         transparent,
         var(--color-primary)
     );
+
     display:grid;
     place-items: center;
 }
 
 
 .about__me-image{
-    border-radius: 1rem;
+    border-radius: 0rem;
     overflow: hidden;
     transform: translateX(2rem)translateY(1rem);
     transition: var(--transition);
@@ -27,7 +28,7 @@
 
 .about__me-image:hover{
     transform: rotate(0);
-    box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, 0.3);
+   
 }
 
 .about__cards{
@@ -38,30 +39,49 @@
 
 
 .about__card{
+    
     background: var(--color-bg-variant);
     border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
+    border-radius: 0rem;
+    padding: 1rem;
     text-align: center;
     transition: var(--transition);
-
+    
 }
 
-.about__card:hover{
+
+
+.extrac1{
+    margin: 3.43rem 0;
+}
+.extrac2{
+    margin: 3.43rem 0;
+}
+.extrac1:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
-    cursor: default;
-    
+    margin: 0;
 }
 
-.about__card:hover span{
+
+.extrac2:hover{
+    
+    background: transparent;
+    border-color: var(--color-primary-variant);
+
+}
+
+
+
+.extrac1:hover span{
     display: none;
     
 }
-.about__card div{
+.extrac1 div{
     display: none;
 }
-.about__card:hover div{
+.extrac1:hover div{
+    
     display:block;
     text-align: left;
     
@@ -87,7 +107,6 @@
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
-
 
 
 

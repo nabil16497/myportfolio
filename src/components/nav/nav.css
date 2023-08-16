@@ -1,7 +1,7 @@
 nav{
     background: rgba(0,0,0,0.3);
     width: max-content;
-    padding: 0.7rem 1.7rem;
+    padding: 0.5rem .7rem;
     z-index: 2;
     position: fixed;
     left: 50%;
@@ -9,14 +9,14 @@ nav{
     bottom: 2rem;
     display: flex;
     gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
+    border-radius: 0.3rem;
+    backdrop-filter: blur(10px);
 }
 
 nav a{
     background: transparent;
     padding: 0.9rem;
-    border-radius: 50%;
+    border-radius: 10%;
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
@@ -25,16 +25,17 @@ nav a{
 .nametitle{
     position: absolute;
     background: rgba(0, 0, 0, 0.9);
-    border-radius: 5px;
-    padding: 0.2rem;
+
+    border-radius: 0.1rem;
+    padding: 0.3rem;
     font-size: 0.9rem;
-    transform: translateX(-.7rem) translateY(-3.3rem);
+    transform: translateX(-.8rem) translateY(-3.3rem);
     opacity: 0%;
     transition: var(--transition);
 
 }
 nav a:hover .nametitle{
-    transform: translateY(-3.8rem) translateX(-.7rem);
+    transform: translateY(-3.8rem) translateX(-.8rem);
     
     animation: visibility 2s linear;
 

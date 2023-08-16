@@ -28,6 +28,7 @@
 
 html{
     scroll-behavior: smooth;
+    cursor: default;
 }
 
 ::-webkit-scrollbar{
@@ -53,17 +54,21 @@ body{
     
 }
 .container__glass{
-    width:90%;
+    width:96%;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1.5rem 0;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
     position: relative;
-    border-radius: .7rem;
+    border-radius: 0;
     background-color: rgba(255, 255, 255, 0.07);
-    backdrop-filter: blur(1rem);
+    backdrop-filter: blur(.3rem);
 }
 
  
+
+
+
+
 
 h1,h2,h3,h4,h5{
     font-weight: 500;
@@ -76,13 +81,13 @@ section{
     margin-top: 8rem;
     
 }
-section > h2, section > h5 {
+section > h2, section > h5, header > h2, header > h5 {
     text-align: center;
     color: var(--color-light);
 }
-section > h2{
+section > h2, header > h2{
     color: var(--color-primary);
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .text-light{
@@ -103,7 +108,7 @@ a:hover{
     display:  inline-block;
     color: var(--color-primary);
     padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
+    border-radius: 0rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transform: var(--transition);

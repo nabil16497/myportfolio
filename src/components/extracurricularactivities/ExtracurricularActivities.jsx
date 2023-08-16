@@ -38,17 +38,19 @@ const ExtracurricularActivities = () => {
       <h2>Extracurricular Activities & Hobbies</h2>
       <div className="container__glass">
       <div className="container extra__container">
-        <div className="extra__frontend">
+        <div className="extra__activities">
         <h3>Extracurricular Activities</h3>
         <div className="extra__content">
             {
               activity_data.map(({title,subtitle})=>{
                 return(
                   <article className='extra__details'>
-                    <BsPatchCheckFill className='extra__details-icon' />
                     <div>
+                    <li>
+                    <BsPatchCheckFill className='extra__details-icon' />
                     <h4>{title}</h4>
                     <small className='text-light'>{subtitle}</small>
+                    </li>
                     </div>
                   </article>
                 )
@@ -60,7 +62,7 @@ const ExtracurricularActivities = () => {
         </div>
 
 
-        <div className="extra__backend">
+        <div className="extra__hobbies">
 
         <h3>Hobbies</h3>
         <div className="extra__content2">
@@ -68,10 +70,12 @@ const ExtracurricularActivities = () => {
               hobby_data.map(({title,subtitle})=>{
                 return(
                   <article className='extra__details'>
-                    <BsPatchCheckFill className='extra__details-icon' />
                     <div>
+                    <li>
+                    <BsPatchCheckFill className='extra__details-icon' />
                     <h4>{title}</h4>
                     <small className='text-light'>{subtitle}</small>
+                    </li>
                     </div>
                   </article>
                 )
