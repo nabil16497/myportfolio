@@ -6,7 +6,7 @@ import { FiMoon } from "react-icons/fi";
 import { FiEye } from "react-icons/fi";
 
 export default function ThemeToggle() {
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('dark');
   
     useEffect(() => {
       const savedTheme = localStorage.getItem('theme');
@@ -14,7 +14,7 @@ export default function ThemeToggle() {
         setTheme(savedTheme);
         document.body.className = savedTheme;
       }
-    }, []);
+    }, [theme]);
   
     const toggleTheme = (newTheme) => {
       setTheme(newTheme);

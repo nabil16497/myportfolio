@@ -42,10 +42,19 @@
   }
   
   body.colorblind {
-    background: black;
-    filter: grayscale(100%) contrast(150%);
+    background:black;
+    --color-bg: #2c2c2c; /* Original dark gray */
+    --color-bg-variant: #4f4f4f; /* Original medium gray */
+    --color-primary: #b3b3b3; /* Grayscale equivalent of original primary */
+    --color-primary-variant: #a0a0a0; /* Grayscale equivalent of original variant */
+    --color-white: #ffffff; /* Pure white */
+    --color-light: rgba(192, 192, 192, 0.6); /* Grayscale transparent light gray */
+        
     
+  }
+  body.colorblind img{
     
+    filter: grayscale(100%);
     
   }
   
