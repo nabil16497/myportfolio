@@ -3,7 +3,6 @@ import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {FaLinkedinIn} from 'react-icons/fa'
 import {SiGoogledrive} from 'react-icons/si'
-import {BsBehance} from 'react-icons/bs'
 import {FiGithub} from 'react-icons/fi'
 
 const Footer = () => {
@@ -26,7 +25,6 @@ const Footer = () => {
         <a href="https://facebook.com/nabil164/" target='_blank'><FaFacebookF/></a>
         <a href="https://www.linkedin.com/in/nabil16497/" target='_blank'><FaLinkedinIn/></a>
         <a href='https://github.com/nabil16497' target='_blank'><FiGithub /></a>
-        <a href='https://www.behance.net/mmnabil' target='_blank'><BsBehance /></a>
         <a href='https://drive.google.com/drive/folders/1zkloX4fy7_hLbIhPy4ZN-Nt85wSE1k14?usp=sharing' target='_blank'><SiGoogledrive /></a>
         
        </div>

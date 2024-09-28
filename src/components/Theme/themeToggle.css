@@ -1,0 +1,53 @@
+/* Existing styles */
+
+/* Add these new styles for the ThemeToggle */
+.theme-toggle {
+    top: 3.5rem;
+    right: 2%;
+    display: flex;
+    padding: 0.5rem .7rem;
+    z-index: 2;
+    position: fixed;
+    
+    
+    gap: 0.8rem;
+    border-radius: 0rem 0rem 0rem 0rem;
+    
+    background: rgba(0,0,0,0);
+  }
+  
+  .theme-button {
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: var(--color-primary);
+    padding: 0.35rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+    border: 1px solid var(--color-primary);
+    transform: var(--transition);
+    background: none;
+
+  }
+  
+.theme-toggle:hover {
+    background: rgba(0,0,0,.3);
+
+}
+
+  .theme-button:hover {
+    animation: visibility 2s linear;
+    background: rgba(0,0,0,0.3);
+  }
+  
+  .theme-button.active {
+    background: var(--color-primary);
+    color: var(--color-bg);
+  }
+
+
+  
+  
+ 

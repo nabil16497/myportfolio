@@ -36,7 +36,7 @@ header{
     gap: 0.7rem;
     position: absolute;
     left: 0;
-    bottom: 8rem;
+    bottom: 12rem;
     transition: var(--transition);
 
 }
@@ -110,6 +110,9 @@ header{
  .scroll__down li:hover{
     transform: scale(140%);
  }
+
+
+
 
 @media screen and (max-width: 1024px) {
     header{

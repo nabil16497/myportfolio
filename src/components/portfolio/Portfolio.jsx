@@ -7,6 +7,7 @@ import PIMG4 from '../../assets/AI.jpg'
 import PIMG5 from '../../assets/portal.png'
 import PIMG6 from '../../assets/audiol.png'
 import PIMG7 from '../../assets/freerunner.jpg'
+import fubg from '../../assets/fubg.jpg'
 
 /*
 import PADIMG1 from '../../assets/nobu.jpg'
@@ -187,11 +188,42 @@ const data = [
     git: "",
     demo: "",
   },*/
+
+  {
+    id: 8,
+    image: fubg,
+    title: "FUBG",
+    desc: "Hybrid Perspective Multiplayer Shooting Game | Unreal Engine",
+    linktype: 'Steam',
+    git: "https://store.steampowered.com/app/2262200/FUBG_FIGHT_UNKNOWN_BATTLEGROUND/",
+    demo: "https://drive.google.com/file/d/1b7UVqDJjZ_-FEDknEUnVJ5sM9dub1ke9/view?usp=sharing",
+  },
+
+  {
+    id: 8,
+    image: PIMG7,
+    title: "Shooter AI",
+    desc: "Shooting AI With Different Behaviour or Skillset | Unreal Engine",
+    linktype: 'Drive',
+    git: "https://drive.google.com/file/d/1xcNoRYSYrxPq64GsAvv6gkAXpqdFFJ-E/view",
+    demo: "https://drive.google.com/file/d/1R7922L2f3TmpGkaMHbEseRGbpwk09lrL/view?usp=sharing",
+  },
+
+  {
+    id: 8,
+    image: PIMG7,
+    title: "Melee Attack Demo",
+    desc: "A Simple Melee Attack AI Demo | Unreal Engine",
+    linktype: 'Drive',
+    git: "https://drive.google.com/file/d/1LVN1D5BNLTn_p-_iXKpAT1DF7sSzAaY7/view?usp=sharing",
+    demo: "https://drive.google.com/file/d/16FlPg7kvW1NQvz6hAcc415nS4RQdV8jz/view?usp=sharing",
+  },
+
   {
     id:7,
     image: PIMG7, 
     title: 'Free Runner',
-    desc: 'Game | Unreal Engine 4',
+    desc: 'Endless Runner Demo | Unreal Engine',
     linktype: 'Drive',
     git: 'https://drive.google.com/file/d/19nF2cMLcXkVHGn5P8NRLWIHmPdolX8xb/view?usp=sharing',
     demo: 'https://drive.google.com/file/d/1Yey0RQvxqDMmXbm8DQ5D35VNSqhBvsG7/view?usp=sharing'
@@ -282,7 +314,7 @@ const Portfolio = () => {
           <small className='text-light'>{desc}</small>
           <div className="portfolio__item-cta">
           <a href={git} className='btn' target='_blank'>{linktype}</a>
-          <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href={demo} className='btn btn-primary' target='_blank'>Demo</a>
           </div>
     
         </article>

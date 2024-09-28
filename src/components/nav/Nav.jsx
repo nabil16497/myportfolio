@@ -15,8 +15,9 @@ import { useState } from 'react'
       
       <a href='#' onClick={() => setActiveNav('#')} className={activeNav == '#' ? 'active' : ''}><div className='nametitle'>Home</div><AiOutlineHome /></a>
       <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav == '#about' ? 'active' : ''}><div className='nametitle'>About</div><AiOutlineUser /></a>
-      <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav == '#services' ? 'active' : ''}><div className='nametitle'>Skill</div><MdOutlinePlaylistAdd /></a>
       <a href='#portfolio' onClick={() => setActiveNav('#portfolio')} className={activeNav == '#portfolio' ? 'active' : ''}><div className='nametitle'>Project</div><AiOutlineAppstoreAdd /></a>
+      <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav == '#services' ? 'active' : ''}><div className='nametitle'>Skill</div><MdOutlinePlaylistAdd /></a>
+      
       <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav == '#contact' ? 'active' : ''}><div className='nametitle'>Contact</div><AiOutlineMessage /></a>
     </nav>
   )

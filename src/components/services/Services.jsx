@@ -6,7 +6,11 @@ import {BsCheck} from 'react-icons/bs'
 const skills = [
   {
     title: 'Technical Skills',
-    skillarr: [{
+    skillarr: [
+    {
+      p:'Unreal Engine Development'
+    },  
+    {
       p:'C and C++ Console Application'
     },
     {
@@ -33,9 +37,7 @@ const skills = [
     {
       p:'XPresso or Visual Scripting(Cinema 4D)'
     },
-    {
-      p:'Blueprint or Visual Scripting(Unreal Engine)'
-    },
+    
     
 
     ]
@@ -43,6 +45,9 @@ const skills = [
   {
     title: 'Tools/ IDEs',
     skillarr: [
+      {
+        p:'Unreal Engine'
+      },
       {
         p:'Code Blocks'
       },
@@ -70,9 +75,7 @@ const skills = [
       {
         p:'Cinema 4D'
       },
-      {
-        p:'Unreal Engine 4'
-      },
+
      
       
     ]

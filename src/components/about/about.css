@@ -51,39 +51,31 @@
 
 
 
-.extrac1{
+.extrac{
     margin: 3.43rem 0;
 }
-.extrac2{
-    margin: 3.43rem 0;
-}
-.extrac1:hover{
+
+.extrac:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
-    margin: 0;
-}
-
-
-.extrac2:hover{
-    
-    background: transparent;
-    border-color: var(--color-primary-variant);
-
 }
 
 
 
-.extrac1:hover span{
+
+
+
+.extrac:hover span{
     display: none;
     
 }
-.extrac1 div{
+.extrac div{
     display: none;
 }
-.extrac1:hover div{
+.extrac:hover div{
     
     display:block;
-    text-align: left;
+    text-align: center;
     
 }
 
