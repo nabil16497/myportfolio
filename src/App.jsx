@@ -8,7 +8,8 @@ import Portfolio from './components/portfolio/Portfolio'
 import Certification from './components/certification/Certification'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-import ThemeToggle from './components/Theme/ThemeToggle';
+import ThemeToggle from './components/Theme/ThemeToggle'
+import Experience from './components/experience/experience';
 
 const App = () => {
 
@@ -21,7 +22,7 @@ const App = () => {
       <About />
       <Portfolio />
       <Services />
-      
+      <Experience/>
       <ExtraActivities />
       <Certification />
       <Contact />

@@ -3,10 +3,14 @@ import './portfolio.css'
 import shooterai from '../../assets/shooterai.jpg'
 import git from '../../assets/git.jpg'
 import freerunner from '../../assets/freerunner.jpg'
-import fubg from '../../assets/fubg.jpg'
+import fubg from '../../assets/FUBG.webm'
+import muktijuddho from '../../assets/Muktijuddho.webm'
 import melee from '../../assets/melee.jpg'
 import PADIMG1 from '../../assets/All My Art Works At A Glance.mp4';
 import PADIMG2 from '../../assets/All My 3D Works At A Glance.mp4';
+import { FiVolume2 } from "react-icons/fi";
+import { FiVolumeX } from "react-icons/fi";
+
 
 
 const dataart = [
@@ -39,10 +43,21 @@ const data = [
   },*/
 
   {
+    id: 6,
+    type: "video",
+    image: muktijuddho,
+    title: "Muktijuddho 1971",
+    desc: "Telling the Story of Muktijuddho (Bangladesh Liberation War) | Hybrid Perspective Shooter RPG Game & Multiplayer Shooting Game | Unreal Engine",
+    linktype: 'Steam',
+    git: "https://store.steampowered.com/app/3062630/Muktijuddho_1971/",
+    demo: "https://drive.google.com/file/d/1UAuWNusnITRRS1RMRq6C39uwi41MBgrb/view?usp=sharing",
+  },
+  {
     id: 5,
+    type: "video",
     image: fubg,
     title: "FUBG",
-    desc: "Hybrid Perspective Multiplayer Shooting Game | Unreal Engine",
+    desc: "Fast-Paced Hybrid Perspective Multiplayer Shooting Game | Team-Based Combat Inspired by Classic FPS Gameplay | Unreal Engine",
     linktype: 'Steam',
     git: "https://store.steampowered.com/app/2262200/FUBG_FIGHT_UNKNOWN_BATTLEGROUND/",
     demo: "https://drive.google.com/file/d/1b7UVqDJjZ_-FEDknEUnVJ5sM9dub1ke9/view?usp=sharing",
@@ -50,6 +65,7 @@ const data = [
 
   {
     id: 4,
+    type: "image",
     image: shooterai,
     title: "Shooter AI",
     desc: "Shooting AI With Different Behaviour or Skillset | Unreal Engine",
@@ -60,6 +76,7 @@ const data = [
 
   {
     id: 3,
+    type: "image",
     image: melee,
     title: "Melee Attack Demo",
     desc: "A Simple Melee Attack AI Demo | Unreal Engine",
@@ -70,6 +87,7 @@ const data = [
 
   {
     id:2,
+    type: "image",
     image: freerunner, 
     title: 'Free Runner',
     desc: 'Endless Runner Demo | Unreal Engine',
@@ -80,6 +98,7 @@ const data = [
   
   {
     id:1,
+    type: "image",
     image: git,
     title: "Other Development Works",
     desc: "Projects done during my academic period",
@@ -90,55 +109,83 @@ const data = [
   
 ]
 
+
 const Portfolio = () => {
+  const [mutedVideos, setMutedVideos] = React.useState({});
+
+  const toggleMute = (id) => {
+    setMutedVideos((prev) => {
+      const newMutedState = !prev[id]; // Toggle the muted state
+      // Get the video element and set its muted property
+      const videoElement = document.getElementById(`video-${id}`);
+      if (videoElement) {
+        videoElement.muted = newMutedState; // Directly set the muted property
+      }
+      return { ...prev, [id]: newMutedState }; // Update state
+    });
+  };
+
   return (
     <section id='portfolio'>
       <h5>My Works</h5>
       <h2>Development Portfolio</h2>
 
-      
-      
       <div className="container__glass">
+        <input type='radio' id="inputShownContent" name="group1" />
+        <span id="myReadMore">
+          <label htmlFor="inputShownContent"><span className='btnshow'>Show Projects</span></label>
+        </span>
+        <span id="spanHiddenContent">
 
-      <input type='radio' id="inputShownContent" name="group1" />
-      <span id="myReadMore">
-        <label for="inputShownContent"><span className='btnshow'>Show Projects</span></label>
-      </span>
-      <span id="spanHiddenContent">
+          <div className="container portfolio__container">
+            {
+              data.map(({ id, type, image, title, desc, linktype, git, demo }) => {
+                return (
+                  <article key={id} className='portfolio__item'>
+                    {type === 'image' ? (
+                      <div className="portfolio__item-image">
+                        <img src={image} alt='' />
+                      </div>
+                    ) : (
+                      <div className="portfolio__item-video">
+                        <video
+                          autoPlay
+                          loop
+                          muted={mutedVideos[id] === undefined ? true : mutedVideos[id]} // Control mute based on state
+                          playsInline
+                        >
+                          <source src={image} type="video/webm" />
+                          Sorry. Your browser does not support the video.
+                        </video>
 
-      <div className="container portfolio__container">
-
-      {
-        data.map(({id, image, title, desc, linktype, git, demo}) =>{
-          return(
-            <article key={id} className='portfolio__item'>
-          <div className="portfolio__item-image">
-          <img src={image} alt='' />
+                        <button
+                          onClick={() => toggleMute(id)}
+                          className="mute-toggle"
+                          aria-label={mutedVideos[id] !== false ? "Unmute video" : "Mute video"}
+                        >
+                          {mutedVideos[id] !== false ? <FiVolumeX size={24} /> : <FiVolume2 size={24} />}
+                        </button>
+                      </div>
+                    )}
+                    <h3>{title}</h3>
+                    <small className='text-light'>{desc}</small>
+                    <div className="portfolio__item-cta">
+                      <a href={git} className='btn' target='_blank'>{linktype}</a>
+                      <a href={demo} className='btn btn-primary' target='_blank'>Demo</a>
+                    </div>
+                  </article>
+                );
+              })
+            }
           </div>
-          <h3>{title}</h3>
-          <small className='text-light'>{desc}</small>
-          <div className="portfolio__item-cta">
-          <a href={git} className='btn' target='_blank'>{linktype}</a>
-          <a href={demo} className='btn btn-primary' target='_blank'>Demo</a>
-          </div>
-    
-        </article>
-
-          )
-        })
-      }
-
-      </div>
-      <label for="inputHiddenContent">
-    <span className='btnshow'>Hide</span>
-    </label>
-    </span>
-    <input type='radio' id="inputHiddenContent" name="group1" />
-
+          <label htmlFor="inputHiddenContent">
+            <span className='btnshow'>Hide</span>
+          </label>
+        </span>
+        <input type='radio' id="inputHiddenContent" name="group1" />
       </div>
 
       <section></section>
-
       
 
 

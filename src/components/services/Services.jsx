@@ -5,177 +5,52 @@ import {BsCheck} from 'react-icons/bs'
 
 const skills = [
   {
-    title: 'Technical Skills',
+    title: 'Unreal Engine',
     skillarr: [
     {
-      p:'Unreal Engine Development'
+      p:'Game Mechanics Planning'
     },  
     {
-      p:'C and C++ Console Application'
+      p:'Gameplay Programming'
     },
     {
-      p:'Java Console & WindowsForm Application'
+      p:'NPC/AI/Bot Programming'
     },
     {
-      p:'C# Console & WindowsForm Application'
+      p:'Multiplayer/Co-op Development'
     },
     {
-      p:'Python incl. Machine Learning and Deep Learning'
+      p:'Game UI Design'
     },
     {
-      p:'Assembly Language (Intel 8086)'
+      p:'Retargeting Characters and Animations'
     },
     {
-      p:'HTML5'
+      p: 'Asset/Plugin Modification'
     },
     {
-      p:'PHP (Raw PHP)'
-    },
-    {
-      p:'CSS (Raw CSS)'
-    },
-    {
-      p:'XPresso or Visual Scripting(Cinema 4D)'
-    },
-    
-    
+      p: 'Technology Integration (e.g., Live Link Face, Live Link VCam, Character Creator 4 with Unreal Engine)'
+    }
 
     ]
   },
   {
-    title: 'Tools/ IDEs',
-    skillarr: [
-      {
-        p:'Unreal Engine'
-      },
-      {
-        p:'Code Blocks'
-      },
-      {
-        p:'Visual Studio'
-      },
-      {
-        p:'Visual Studio Code'
-      },
-      {
-        p:'NetBeans'
-      },
-      {
-        p:'EMU8086'
-      },
-      {
-        p:'Anaconda'
-      },
-      {
-        p:'Jupyter Notebook'
-      },
-      {
-        p:'GitHub'
-      },
-      {
-        p:'Cinema 4D'
-      },
-
-     
-      
-    ]
-  },
-
-  {
-    title:'Database Tools',
+    title:'Additional Technical Skills',
     skillarr:[
       {
-        p:'Oracle'
+        p:'Version Control Systems (Git, SVN)'
       },
       {
-        p:'MySQL'
+        p:'Programming Languages (C/C++, Java, C#, Python, Assembly, HTML5, PHP, CSS)'
       },
       {
-        p:'MS SQL'
+        p:'Cinema 4D (Basic 3D Modeling, Modular Modeling, and Visual Scripting)'
       },
       {
-        p:'phpMyAdmin'
-      }
-    ]
-  },
-
-  {
-    title:'Art & Design Skills',
-    skillarr: [
-      {
-        p:'Basic Color Theory Knowledge'
+        p:'Basic Concept Art Skills (e.g., Color Theory, UI Design, Photo Editing)'
       },
       {
-        p:'UI Design'
-      },
-      {
-        p:'Photo Editing and Manipulation'
-      },
-      {
-        p:'Illustration and Logo Design'
-      },
-      {
-        p:'Basic Video & Audio Editing'
-      },
-      {
-        p:'3D Modeling'
-      },
-      {
-        p:'3D Animation'
-      },
-      {
-        p:'3D Model Rigging'
-      }
-    ]
-  },
-
-  {
-    title:'Art & Design Tools',
-    skillarr:[
-      {
-        p:'Adobe Photoshop'
-      },
-      {
-        p:'Adobe Illustrator'
-      },
-      {
-        p:'Adobe Audition'
-      },
-      {
-        p:'Adobe Premiere Pro'
-      },
-      {
-        p:'Adobe Xd'
-      },
-      {
-        p:'Cinema 4D'
-      }
-    ]
-  },
-
-  {
-    title:'General Tools',
-    skillarr:[
-      {
-        p:'Microsoft Word'
-      },
-      {
-        p:'Google Doc'
-      },
-      {
-        p:'Microsooft Excel'
-      },
-      {
-        p:'Google Spreadsheet'
-      },
-      {
-        p:'Microsoft Powerpoint'
-      },
-      {
-        p:'Microsoft Visio'
-      },
-      {
-        p:'Microsoft Project'
+        p: 'Database (Oracle, MySQL, MS SQL, phpMyAdmin)'
       }
     ]
   }
