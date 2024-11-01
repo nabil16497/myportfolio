@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.dd2c477d.css",
-    "main.js": "/myportfolio/static/js/main.877ae9e8.js",
+    "main.js": "/myportfolio/static/js/main.8ffe1695.js",
     "static/media/All My Art Works At A Glance.mp4": "/myportfolio/static/media/All My Art Works At A Glance.5284874b41cfa6cba574.mp4",
     "static/media/All My 3D Works At A Glance.mp4": "/myportfolio/static/media/All My 3D Works At A Glance.13b467a0c2464c5ece2a.mp4",
     "static/media/FUBG.webm": "/myportfolio/static/media/FUBG.dc70a94f6db7f5633fd5.webm",
     "static/media/Muktijuddho.webm": "/myportfolio/static/media/Muktijuddho.6388bc622b9fd7e164b3.webm",
     "static/media/dp.png": "/myportfolio/static/media/dp.747ccc12121f3c84eb78.png",
     "static/media/bgimg.jpg": "/myportfolio/static/media/bgimg.c56ab353747262bbe877.jpg",
-    "static/media/CV.pdf": "/myportfolio/static/media/CV.f858344e424c179fa76b.pdf",
+    "static/media/CV.pdf": "/myportfolio/static/media/CV.c197808bb89bc001459c.pdf",
     "static/media/light.jpg": "/myportfolio/static/media/light.9fed7bf7fd4c4ad6cd5f.jpg",
     "static/media/freerunner.jpg": "/myportfolio/static/media/freerunner.9d332e18633010c34c17.jpg",
     "static/media/about1.jpg": "/myportfolio/static/media/about1.76dd61daebdc4305c82d.jpg",
@@ -19,10 +19,10 @@
     "static/media/melee.jpg": "/myportfolio/static/media/melee.4bd0728ec7110a24c554.jpg",
     "index.html": "/myportfolio/index.html",
     "main.dd2c477d.css.map": "/myportfolio/static/css/main.dd2c477d.css.map",
-    "main.877ae9e8.js.map": "/myportfolio/static/js/main.877ae9e8.js.map"
+    "main.8ffe1695.js.map": "/myportfolio/static/js/main.8ffe1695.js.map"
   },
   "entrypoints": [
     "static/css/main.dd2c477d.css",
-    "static/js/main.877ae9e8.js"
+    "static/js/main.8ffe1695.js"
   ]
 }
