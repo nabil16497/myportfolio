@@ -22,7 +22,7 @@ const About = () => {
 
             
            <article className='about__card extrac'>
-            <div className='about__card__edu'>
+            <div className='about__card__e'>
               <ul>
                 <li>
                   <h6><BsCheck/> AMERICAN INTERNATIONAL UNIVERSITY BANGLADESH</h6>
@@ -44,14 +44,11 @@ const About = () => {
 
 
            <article className='about__card extrac'>
-            <div className='about__card__edu'>
+            <div className='about__card__e'>
                 <ul>
                   <li>
-                    <h6><BsCheck/> Unreal Engine</h6>
-                    <small>Game Play Programming<br></br>
-                            Programming NPC/AI<br></br>
-                            Network Programming<br></br>
-                            Game UI
+                    <h6><BsCheck/> Unreal Engine Developer</h6>
+                    <small>at Future Studios Bangladesh<br></br>
                     </small>
                   </li>
 

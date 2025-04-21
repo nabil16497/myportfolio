@@ -29,7 +29,7 @@ const skills = [
       p: 'Asset/Plugin Modification'
     },
     {
-      p: 'Technology Integration (e.g., Live Link Face, Live Link VCam, Character Creator 4 with Unreal Engine)'
+      p: 'Technology Integration (e.g., Pixel Streaming, Live Link Face, Live Link VCam)'
     }
 
     ]

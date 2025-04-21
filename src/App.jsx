@@ -20,9 +20,10 @@ const App = () => {
       <ThemeToggle />
       <Nav />
       <About />
+      <Experience/>
       <Portfolio />
       <Services />
-      <Experience/>
+      
       <ExtraActivities />
       <Certification />
       <Contact />

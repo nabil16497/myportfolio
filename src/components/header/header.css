@@ -13,7 +13,7 @@ header{
 .header__name li{  
     display: inline-block;
     margin-right: .3rem;
-    writing-mode:sideways-rl;
+    writing-mode:horizontal-tb;
     transition: var(--transition);
 }
 

@@ -5,9 +5,43 @@ import {BsCheck} from 'react-icons/bs'
 
 const skills = [
   {
+    title: 'Game Developer',
+    place: 'Future Studios Bangladesh',
+    time: 'December 2024 - Present',
+    skillarr: [
+    {
+      p:'Create the Base development structure'
+    },  
+    {
+      p:'Maintain/ Manage the development cycle'
+    },
+    {
+      p:'Maintain the versioning system (SVN)'
+    },
+    {
+      p:'Communicate with the Art team for efficient and optimized assets'
+    },
+    {
+      p:'Create necessary blueprints/ functions (All Multiplayer Supported)'
+    },
+    {
+      p:'Handling build error and bug fixing.'
+    },
+    {
+      p: 'Analyzing optimization issues.'
+    },
+    {
+      p:'Documenting workflows and tasks.'
+    },
+    {
+      p:'Implementing UI/UX for the game.'
+    }
+    ]
+  },
+  {
     title: ' Unreal Engine Developer (VR)',
     place: 'Vinacts (Bangladesh)',
-    time: 'June 2024 - Present',
+    time: 'June 2024 - November 2024',
     skillarr: [
     {
       p:'Understanding client requirement.'

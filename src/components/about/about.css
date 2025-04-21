@@ -48,7 +48,15 @@
     transition: var(--transition);
     
 }
-
+.about__card__e{
+    
+    border: 1px solid transparent;
+    border-radius: 0rem;
+    padding: 0rem;
+    text-align: center;
+    transition: var(--transition);
+    align-items: center;    
+}
 
 
 .extrac{
@@ -83,7 +91,7 @@
 .about__icon{
   color: var(--color-primary);  
   font-size: 1.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: .6rem;
 }
 .about__card h5{
     font-size: 0.95rem;
