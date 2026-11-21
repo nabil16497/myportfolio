@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nabil16497.github.io/myportfolio/sitemap.xml
